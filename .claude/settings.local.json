@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn clean compile -q)",
+      "Bash(cmd.exe /c \"where mvn\")",
+      "Bash(cmd.exe /c \"mvn --version\")",
+      "Bash(./mvnw compile -q)",
+      "Bash(java -version)",
+      "Bash(./mvnw clean compile -q)",
+      "WebFetch(domain:mvnrepository.com)"
+    ]
+  }
+}
